@@ -1,0 +1,29 @@
+.curveCurve1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 10;
+}
+
+.curveCurve1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 193px;
+}
+
+.curveCurve1 .shape-fill {
+    fill: #FACEFA;
+}
+
+/* .curveCurve1 .shape-fill:hover {
+    fill: #d39dd3;
+} */
+
+.curveCurve1 svg {
+    animation: animate 30s linear infinite;
+}
