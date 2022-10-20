@@ -15,15 +15,15 @@ li {
 
 #first {
     font-size: 15px;
+    display: flex;
 }
 
 #second {
     display: flex;
-    flex-direction: row;
 }
 
-#second > li {
-
+#third {
+    display: flex;
 }
 
 .table {
@@ -32,5 +32,4 @@ li {
 
 i {
     margin-right: 1%;
-    display: inline-block;
 }
