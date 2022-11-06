@@ -20,6 +20,7 @@ li {
 
 #second {
     display: flex;
+    flex-direction: row;
 }
 
 #third {
@@ -31,5 +32,5 @@ li {
 }
 
 i {
-    margin-right: 1%;
+    /* margin-right: 1%; */
 }
